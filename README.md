@@ -1,1 +1,1 @@
-# rsschool-cv
+[Main Link](https://JunBSer.github.io/rsschool-cv/c)
