@@ -1,5 +1,5 @@
-## ![*My Resume](file:///D:/Education/Manuals/English/AlexRResume.pdf) 
-
+## [My Resume](https://github.com/JunBSer/rsschool-cv/blob/gh-pages/AlexRResume.pdf) 
+git 
 # **Aliaksei Radzetskii**
 
 ## **Contacts**
