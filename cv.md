@@ -1,4 +1,4 @@
-## *rsschool-cv* 
+## ![*My Resume](file:///D:/Education/Manuals/English/AlexRResume.pdf) 
 
 # **Aliaksei Radzetskii**
 
@@ -30,7 +30,7 @@ function sum(a, b) {
 let result = sum(1, 2);
 alert( result );
 ```
-## **Expirience**
+## **Experience**
 *May 15, 2024*
 Covered by BSUIR\
 Creating an application for distributing work across brigades
