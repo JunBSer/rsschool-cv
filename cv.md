@@ -34,7 +34,7 @@ alert( result );
 *May 15, 2024*
 Covered by BSUIR\
 Creating an application for distributing work across brigades
-“Construction manager”\
+“Construction manager”
    * Worked with databases
    * Implemented an effective algorithms of work destribution.
    * Maintened software solutions.
