@@ -1,1 +1,1 @@
-[Main Link](https://JunBSer.github.io/rsschool-cv/c)
+[Main Link](https://github.com/JunBSer/rsschool-cv/blob/gh-pages/cv.md)
