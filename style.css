@@ -115,12 +115,18 @@
         background-color: #785ce7;
         display: flex;
         justify-content: center; 
-        align-items: center; 
+        align-items: flex-start; 
     } 
     .rectangle-image {
         max-height: 100%; 
-        max-width: 100%; 
+        max-width: 100%;
+        height: auto;   
     }
     .footer {
         margin-top: auto; 
     }
+    #Im img {
+      max-width: 100%; /* Гарантирует, что изображение не будет шире своего контейнера */
+      height: auto; /* Автоматически регулирует высоту для сохранения пропорций */
+      align-content:;
+  }
