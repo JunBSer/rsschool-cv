@@ -1,8 +1,112 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="utf-8">
-    <title>Заголовок</title>
+    <meta charset="utf-8"> 
+    <title>cv</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
+    <!-- <img src="assets\img\Снимок экрана 2023-11-02 205656.png" alt="my_photo"\> -->
   </head>
-  <body>Страница</body>
+  
+  <body>
+    <div class="top-rectangle"></div>
+    <header class="header">
+      <div class="container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+          <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+        </ul>
+      </nav>
+    </div>
+    </header>
+    <main class="main"> 
+      <div class="container main-container" > 
+      <section class="section section-profile-title central_section" id="profile">
+        <img class="image-profile" img src="assets\img\Снимок экрана 2023-11-02 205656.png" alt="my_photo"\>
+        <h1>Aliaksey Radzetskii</h1>
+        <P>Backend Developer</P>
+      </section>
+
+      <section class="section" id="contacts">
+        <h2 class="section-title">Contacts</h2>
+        <ul>
+          <li><a href="https://github.com/JunBSer">GitHub</a></li>
+          <li><a href="https://t.me/Turtulik">Telegram</a></li>
+          <li>lesharad2006@gmail.com</li>
+          <li>Minsk, Belarus</li>
+        </ul>
+      </section>
+
+      <section class="section" id="summary"><h2 class="section-title">Summary </h2>
+      <p>I thrive on learning new technologies and constantly improving my skills through hands-on projects and collaboration. When I'm not coding, you can find me exploring the latest tech trends, contributing to open-source projects, or enjoying a good puzzle. Let's connect and build something amazing together!</p>  
+      </section>
+
+      <section class="section" id="skills"><h2 class="section-title"> Skills</h2>
+        <ul>
+          <li>GoLang</li>
+          <li>ASM</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Git</li> 
+        </ul>
+      </section>
+
+      <section class="section" id="code"><h2 class="section-title">Code </h2>
+        <pre class="code">
+
+          function sum(a, b) {
+            return a + b;
+          }
+          
+          let result = sum(1, 2);
+          alert( result );
+        </pre>
+        
+      </section>
+
+      <section class="section" id="courses"><h2 class="section-title">Courses</h2>
+        <ul>
+          <li><a href="https://stepik.org/course/363/syllabus">Stepik</a></li>
+          <li><a href="https://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA">CS50</a></li>
+        </ul>
+      </section>
+
+      <section class="section" id="projects"><h2 class="section-title">Projects</h2>
+        <p>May 15, 2024 Covered by BSUIR</p>
+          <p>Creating an application for distributing work across brigades “Construction manager”</p>
+          <ul>
+            <li>Worked with databases</li>
+            <li>Implemented an effective algorithms of work destribution</li>
+            <li>Maintened software solutions</li>
+          </ul>
+       </section>
+
+      <section class="section" id="education"><h2 class="section-title">Education</h2>
+        <p>University: Belarusian State University of Informatics and Radioelectronics.</p>
+        Software Ingineering.
+      </section>
+
+      <section class="section" id="languages"><h2 class="section-title">Languages</h2>
+        <ul>
+          <li>B2 (Practising English with natives)</li>
+          <li>Russian(native)</li>
+          <li>Belarusian(native)</li>
+        </ul>
+      </section>
+      </div>
+    </main>
+
+    <footer class="footer bottom-rectangle">
+      <img src="assets\img\logo-rsschool3.ico" alt="Icon" class="rectangle-image">
+  </footer>
+   
+  </body>
 </html>
